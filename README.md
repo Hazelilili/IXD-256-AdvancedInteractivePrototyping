@@ -1,1 +1,3 @@
-# IXD-256-AdvancedInteractivePrototyping
+# Assignment #1
+
+Digital input project
