@@ -10,3 +10,5 @@ I have decided to go with the second idea, "glove controller." My initial concep
 #### Interactive Behavior 01
 Except for the thumb, each of the other four fingers has a corresponding RGB light. Whenever the thumb touches one of the fingers, the corresponding RGB light will be turned on. Even if the two fingers separate, the RGB light will remain on. The RGB light that is currently on will turn off only when the thumb touches another finger, and the RGB light corresponding to the newly touched finger will be turned on. If the thumb touches multiple fingers, all RGB lights will be turned off.
 <img width="3732" alt="Flow Chart_Yujia Li" src="https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/ce769ff3-df1f-4c0d-a307-aa10ad4cbfd3">
+### Part III
+#### Flowchart Updates
