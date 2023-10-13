@@ -12,3 +12,4 @@ Except for the thumb, each of the other four fingers has a corresponding RGB lig
 <img width="3732" alt="Flow Chart_Yujia Li" src="https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/ce769ff3-df1f-4c0d-a307-aa10ad4cbfd3">
 ### Part III
 #### Flowchart Updates
+<img width="3876" alt="Flowchart_v2" src="https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/7396990f-4742-4953-a456-4583b6328705">
