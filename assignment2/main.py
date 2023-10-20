@@ -31,5 +31,6 @@ def draw():
   # restore graphical transformation
   p5.pop()
 
-
+def print_test(x):
+  print(x)
   
