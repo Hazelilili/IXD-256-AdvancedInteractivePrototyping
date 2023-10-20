@@ -16,7 +16,7 @@ def draw():
   circle_size = int(data)
   p5.noStroke()
   p5.fill(150)
-  p5.ellipse(150, 150, circle_size, circle_size)
+  # p5.ellipse(150, 150, circle_size, circle_size)
   p5.push()
   # set angle variable to integer of data
   angle = int(data)
