@@ -30,8 +30,6 @@ def draw():
   p5.rectangle(0,0,100,100)
   # restore graphical transformation
   p5.pop()
-  
-def print_test(x):
-  print(x)
+
 
   
