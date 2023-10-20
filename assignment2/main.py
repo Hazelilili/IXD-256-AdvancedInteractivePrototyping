@@ -24,7 +24,7 @@ def draw():
   p5.translate(p5.width/2, p5.height/2)
   # rotate canvas with angle converted from degrees to radiant:
   p5.rotate(p5.radians(angle))
-  #change mode to draw rectangle from center:
+  # change mode to draw rectangle from center:
   p5.rectangle(p5.center)
   # draw rectangle at coordinate 0, 0 and 100 width and height:
   p5.rectangle(0,0,100,100)
