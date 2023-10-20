@@ -5,6 +5,7 @@
 # 'CLOSED' -> fade in RGB yellow if digital input is closed
 # 'FINISH' -> fade in RGB red 5 seconds after 'CLOSED' state
 #             fade out RGB to black after 2 seconds
+# -------------------rgb_input_4states.py--------------------
 
 import os, sys, io
 import M5
@@ -16,10 +17,9 @@ rgb = None
 state_timer = 0
 is_input_touched = False
 rgb_state = 'DEFAULT'
-#Other rgb_state:
-#TAP
-#DOUBLE_TAP
-#HOLD (X)
+# Other rgb_state:
+# TAP
+# DOUBLE_TAP
 
 #For double tap use:
 has_first_tap = False
@@ -94,7 +94,7 @@ def loop():
   
   # Clean Double Tap
   if (has_first_tap == True):
-      if (double_tap_timer + 1000 < time.ticks_ms()):
+      if (double_tap_timer + 700 < time.ticks_ms()):
         print('Double Tap Failed')
         has_first_tap = False
 	

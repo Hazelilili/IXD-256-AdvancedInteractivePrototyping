@@ -13,3 +13,6 @@ Except for the thumb, each of the other four fingers has a corresponding RGB lig
 ### Part III
 #### Flowchart Updates
 <img width="3876" alt="Flowchart_v2" src="https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/7396990f-4742-4953-a456-4583b6328705">
+#### Prototype Description
+The glove controller has three states: "DEFAULT," "TAP," and "DOUBLE_TAP." In the "DEFAULT" state, the RGB light is black, and it checks if two fingers are touched each other. If they are, the RGB light turns green, and the current state becomes "TAP." In the "TAP" state, it checks if two fingers are touched each other for the first time. If they are, this closure will be recorded. If it's not the first closure and the time interval between the two closures is more than 300ms and less than 700ms, the RGB light turns blue, and the current state becomes "DOUBLE_TAP." In the "DOUBLE_TAP" state, it checks if the fingers are touched each other and if the time elapsed since the last contact is more than 500ms. If both conditions are met, the RGB light turns green, and the current state becomes "TAP."
+#### Process Documentary
