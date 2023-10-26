@@ -4,14 +4,8 @@ from js import document
 data_string = None
 data_list = None
 
-if len(data_list) >= 2:
-    try:
-        sensor_val = int(data_list[0])
-        angle_val = int(data_list[1])
-    except ValueError as e:
-        print("Error parsing sensor values:", e)
-else:
-    print("Data list does not contain expected values:", data_list)
+sensor_val = None
+angle_val = None
 
 
 def setup():
