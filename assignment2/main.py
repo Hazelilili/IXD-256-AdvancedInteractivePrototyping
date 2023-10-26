@@ -1,36 +1,80 @@
 import js as p5
 from js import document
 
-data = None
+data_string = None
+data_list = None
+
+if len(data_list) >= 2:
+    try:
+        sensor_val = int(data_list[0])
+        angle_val = int(data_list[1])
+    except ValueError as e:
+        print("Error parsing sensor values:", e)
+else:
+    print("Data list does not contain expected values:", data_list)
+
 
 def setup():
-  p5.createCanvas(300, 300)
-  print('hello p5!')
+    p5.createCanvas(300, 300)
+    p5.angleMode(p5.DEGREES)
+    p5.rectMode(p5.CENTER)
+    p5.strokeCap(p5.SQUARE)
+
+def draw_flower(x, y, scale, rotation, color):
+    p5.push()
+    p5.translate(x, y)
+    p5.rotate(rotation)
+    p5.fill(color)
+    p5.noStroke()
+    
+    # Circle at the center
+    p5.ellipse(0, 0, 20 * scale, 20 * scale)
+    
+    # Traps around the center
+    for i in range(6):
+        p5.push()
+        p5.rotate(60 * i)
+        p5.beginShape()
+        p5.vertex(0, 0)
+        p5.vertex(30 * scale, -15 * scale)
+        p5.vertex(60 * scale, 0)
+        p5.vertex(30 * scale, 15 * scale)
+        p5.endShape(p5.CLOSE)
+        p5.pop()
+    
+    p5.pop()
 
 def draw():
-  p5.background(255)
+    global data_string, data_list
+    global sensor_val, angle_val
+    
+    data_string = document.getElementById("data").innerText
+    data_list = data_string.split(',')
+    sensor_val = int(data_list[0])
+    angle_val = int(data_list[1])
 
-  global data
-  data = document.getElementById("data").innerText
-  
-  circle_size = int(data)
-  p5.noStroke()
-  p5.fill(150)
-  # p5.ellipse(150, 150, circle_size, circle_size)
-  p5.push()
-  # set angle variable to integer of data
-  angle = int(data)
-  # move to middle of canvas
-  p5.translate(p5.width/2, p5.height/2)
-  # rotate canvas with angle converted from degrees to radiant:
-  p5.rotate(p5.radians(angle))
-  # change mode to draw rectangle from center:
-  p5.rectMode(p5.CENTER)
-  # draw rectangle at coordinate 0, 0 and 100 width and height:
-  p5.rect(0,0,100,100)
-  # restore graphical transformation
-  p5.pop()
+    # Background gradient
+    grad_color = p5.map(sensor_val, 0, 255, 0, 100)
+    p5.background(p5.lerpColor(p5.color(0, 0, 0), p5.color(255, 255, 255), grad_color/100))
+    
+    # Draw the flower layers
+    draw_flower(150, 150, 1, 0, p5.color("#7C7C7C"))
+    draw_flower(150, 150, 1.2, -30, p5.color("#EBEBEB"))
+    draw_flower(150, 150, 1.2, 30, p5.color("#F2F2F2"))
+    
+    # Draw the stem
+    p5.strokeWeight(10)
+    p5.stroke(p5.color("#F2F2F2"))
+    p5.line(150, 150, 150, 300)
+    
+    # Draw falling circles
+    num_circles = p5.map(angle_val, 0, 255, 0, 30)
+    p5.fill(p5.color(0, 0, 255))
+    p5.noStroke()
+    
+    for _ in range(int(num_circles)):
+        x = p5.random(0, 300)
+        y = p5.random(150, 300)
+        r = p5.random(5, 25)
+        p5.ellipse(x, y, r, r)
 
-def print_test(x):
-  print(x)
-  
