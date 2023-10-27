@@ -23,17 +23,7 @@ def draw_background_gradient():
     img_height = p5.width * (plant_img.height / plant_img.width)  # maintain original aspect ratio
     p5.image(plant_img, p5.width / 2, p5.height / 2, img_width, img_height)
 
-    # Create linear gradient based on light sensor
-    if light_val > 127:
-        for y in range(300):
-            n = p5.map(y, 0, 299, 0, light_val - 127)
-            p5.stroke(0, 0, 0, 255 - n * 2)
-            p5.line(0, y, 300, y)
-    else:
-        for y in range(300):
-            n = p5.map(y, 0, 299, light_val, 0)
-            p5.stroke(0, 0, 0, 255 - n * 2)
-            p5.line(0, y, 300, y)
+   
 
 def draw():
     global data_string, data_list
