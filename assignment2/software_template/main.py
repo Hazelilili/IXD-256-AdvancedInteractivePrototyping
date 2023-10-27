@@ -14,24 +14,15 @@ def setup():
     p5.createCanvas(300, 300)
     p5.imageMode(p5.CENTER)
 
-def draw_background_gradient():
-    global light_val
-    p5.noStroke()
-
-    # Image drawing
-    img_width = p5.width
-    img_height = p5.width * (plant_img.height / plant_img.width)  # maintain original aspect ratio
-    p5.image(plant_img, p5.width / 2, p5.height / 2, img_width, img_height)
-
-   
-
 def draw():
     global data_string, data_list
     global light_val, angle_val
     global falling_circles
 
-    # Draw background gradient based on light sensor value
-    draw_background_gradient()
+    # Image drawing
+    img_width = p5.width
+    img_height = p5.width * (plant_img.height / plant_img.width)  # maintain original aspect ratio
+    p5.image(plant_img, p5.width / 2, p5.height / 2, img_width, img_height)
 
     # Parse sensor data
     data_string = document.getElementById("data").innerText
@@ -39,7 +30,7 @@ def draw():
     light_val = int(data_list[0])
     angle_val = int(data_list[1])
 
-    # Falling circles based on angle sensor
+# Falling circles based on angle sensor
     num_new_circles = p5.map(angle_val, 0, 255, 0, 5)
     for _ in range(int(num_new_circles)):
         falling_circles.append({
@@ -55,4 +46,8 @@ def draw():
         p5.ellipse(circle["x"], circle["y"], circle["r"], circle["r"])
         circle["y"] += circle["speed"]
     
-   
+    # Remove circles that have left the canvas
+    falling_circles = [circle for circle in falling_circles if circle["y"] < (p5.height + 10)]
+
+
+    
