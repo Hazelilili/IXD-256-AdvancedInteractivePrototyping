@@ -4,7 +4,7 @@ from js import document
 data_string = None
 data_list = None
 
-sensor_val = None
+light_val = None
 angle_val = None
 
 
@@ -40,15 +40,15 @@ def draw_flower(x, y, scale, rotation, color):
 
 def draw():
     global data_string, data_list
-    global sensor_val, angle_val
+    global light_val, angle_val
     
     data_string = document.getElementById("data").innerText
     data_list = data_string.split(',')
-    sensor_val = int(data_list[0])
+    light_val = int(data_list[0])
     angle_val = int(data_list[0])
 
     # Background gradient
-    grad_color = p5.map(sensor_val, 0, 255, 0, 100)
+    grad_color = p5.map(light_val, 0, 255, 0, 100)
     p5.background(p5.lerpColor(p5.color(0, 0, 0), p5.color(255, 255, 255), grad_color/100))
     
     # Draw the stem
