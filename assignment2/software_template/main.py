@@ -27,8 +27,8 @@ def draw():
     # Parse sensor data
     data_string = document.getElementById("data").innerText
     data_list = data_string.split(',')
-    light_val = int(data_list[0])
-    angle_val = int(data_list[1])
+    #light_val = int(data_list[0])
+    angle_val = int(data_list[0])
 
 # Falling circles based on angle sensor
     num_new_circles = p5.map(angle_val, 0, 255, 0, 5)
