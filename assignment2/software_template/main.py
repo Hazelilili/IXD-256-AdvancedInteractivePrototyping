@@ -51,15 +51,15 @@ def draw():
     grad_color = p5.map(sensor_val, 0, 255, 0, 100)
     p5.background(p5.lerpColor(p5.color(0, 0, 0), p5.color(255, 255, 255), grad_color/100))
     
-    # Draw the flower layers
-    draw_flower(150, 150, 1, 0, p5.color("#7C7C7C"))
-    draw_flower(150, 150, 1.2, -30, p5.color("#EBEBEB"))
-    draw_flower(150, 150, 1.2, 30, p5.color("#F2F2F2"))
-    
     # Draw the stem
-    p5.strokeWeight(10)
+    p5.strokeWeight(5)
     p5.stroke(p5.color("#F2F2F2"))
     p5.line(150, 150, 150, 300)
+    
+    # Draw the flower layers
+    draw_flower(150, 150, 1.2, 30, p5.color("#C2FFCC"))
+    draw_flower(150, 150, 1.2, -30, p5.color("#3FF05B"))
+    draw_flower(150, 150, 1, 0, p5.color("#0DA926"))
     
     # Draw falling circles
     num_circles = p5.map(angle_val, 0, 255, 0, 30)
