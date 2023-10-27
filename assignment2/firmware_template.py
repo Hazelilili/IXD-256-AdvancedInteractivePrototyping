@@ -18,9 +18,9 @@ def setup():
     global light_adc, angle_adc, light_val, angle_val
     M5.begin()
     # configure ADC input on pin G1 for light sensor with 11dB attenuation:
-    light_adc = ADC(Pin(1), atten=ADC.ATTN_11DB)
-    # assuming ADC input on pin G38 for the angle sensor:
-    angle_adc = ADC(Pin(7), atten=ADC.ATTN_11DB)
+    light_adc = ADC(Pin(8), atten=ADC.ATTN_11DB)
+    # assuming ADC input on pin G7 for the angle sensor:
+    angle_adc = ADC(Pin(1), atten=ADC.ATTN_11DB)
 
 def loop():
     global light_adc, light_val
@@ -32,7 +32,6 @@ def loop():
     light_val = light_adc.read()
     light_val_8bit = map_value(light_val, in_min=0, in_max=4095, out_min=0, out_max=255)
     
-    time.sleep_ms(100)
     
     # read angle sensor value:
     angle_val = angle_adc.read()
@@ -43,6 +42,8 @@ def loop():
     # print 8-bit ADC value ending with comma:
     #print("Angle Sensor:", angle_val_8bit, end=',')
     print(["Light Sensor", light_val_8bit], ["Angle Sensor", angle_val_8bit])
+    #print(["Light Sensor", light_val], ["Angle Sensor", angle_val])
+    #print(["Angle Sensor", angle_val])
     
     time.sleep_ms(100)
 
