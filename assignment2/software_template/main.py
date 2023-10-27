@@ -19,16 +19,19 @@ def draw():
     global light_val, angle_val
     global falling_circles
 
+    # Parse sensor data
+    data_string = document.getElementById("data").innerText
+    data_list = data_string.split(',')
+    # light_val = int(data_list[0])
+    angle_val = int(data_list[0])
+
+    print(data_string)
+
     # Image drawing
     img_width = p5.width
     img_height = p5.width * (plant_img.height / plant_img.width)  # maintain original aspect ratio
     p5.image(plant_img, p5.width / 2, p5.height / 2, img_width, img_height)
-
-    # Parse sensor data
-    data_string = document.getElementById("data").innerText
-    data_list = data_string.split(',')
-    #light_val = int(data_list[0])
-    angle_val = int(data_list[0])
+   
 
 # Falling circles based on angle sensor
     num_new_circles = p5.map(angle_val, 0, 255, 0, 5)
