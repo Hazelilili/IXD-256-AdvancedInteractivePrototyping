@@ -45,7 +45,7 @@ def draw():
     data_string = document.getElementById("data").innerText
     data_list = data_string.split(',')
     light_val = int(data_list[0])
-    angle_val = int(data_list[0])
+    angle_val = int(data_list[1])
 
     # Background gradient
     grad_color = p5.map(light_val, 0, 255, 0, 100)
