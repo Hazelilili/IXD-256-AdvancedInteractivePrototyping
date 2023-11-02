@@ -41,9 +41,12 @@ def loop():
     #print("Light Sensor:", light_val_8bit, end=', ')
     # print 8-bit ADC value ending with comma:
     #print("Angle Sensor:", angle_val_8bit, end=',')
-    print(["Light Sensor", light_val_8bit], ["Angle Sensor", angle_val_8bit])
+    #print(light_val_8bit, angle_val_8bit)
     #print(["Light Sensor", light_val], ["Angle Sensor", angle_val])
     #print(["Angle Sensor", angle_val])
+    
+    print(light_val_8bit, end=',')
+    print(angle_val_8bit)
     
     time.sleep_ms(100)
 
