@@ -227,20 +227,20 @@ def setup():
 请包含指向您项目中其他功能组件的链接和/或屏幕截图，例如Adafruit IO feeds、仪表板、IFTTT applets等。总的来说，将您的受众想象为一个新手，试图学习如何制作您的项目，并确保涵盖任何有助于解释其功能部分的内容。
 
 * Adafruit
-Use the user name and token provided by adafruit in python files and create the feed for updates:
-![CleanShot 2023-12-17 at 18 25 26@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/b8c2a900-8b95-4ff1-9ded-20050e952a2d)
-![CleanShot 2023-12-17 at 18 26 38@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/db07b897-b623-47ed-aa5c-57e6c54d7fd8)
+	Use the user name and token provided by adafruit in python files and create the feed for updates:
+	![CleanShot 2023-12-17 at 18 25 26@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/b8c2a900-8b95-4ff1-9ded-20050e952a2d)
+	![CleanShot 2023-12-17 at 18 26 38@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/db07b897-b623-47ed-aa5c-57e6c54d7fd8)
 
 * IFTTT applets
-![CleanShot 2023-12-17 at 18 27 26@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/847773e1-67ce-4e02-9cf1-56e499569540)
-![CleanShot 2023-12-17 at 18 27 34@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/d562686e-3620-47f8-9663-767a59f813ab)
-![CleanShot 2023-12-17 at 18 27 45@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/9049742e-6ce4-47b9-ad5c-d9a6ae0ef9fc)
-![CleanShot 2023-12-17 at 18 28 09@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/bfff5851-10c8-4557-895e-f355bc36ad1d)
+	![CleanShot 2023-12-17 at 18 27 26@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/847773e1-67ce-4e02-9cf1-56e499569540)
+	![CleanShot 2023-12-17 at 18 27 34@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/d562686e-3620-47f8-9663-767a59f813ab)
+	![CleanShot 2023-12-17 at 18 27 45@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/9049742e-6ce4-47b9-ad5c-d9a6ae0ef9fc)
+	![CleanShot 2023-12-17 at 18 28 09@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/bfff5851-10c8-4557-895e-f355bc36ad1d)
 
-![CleanShot 2023-12-17 at 18 28 19@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/96523535-7d50-45f5-9040-e5c16431aab7)
-![CleanShot 2023-12-17 at 18 28 51@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/5236c013-a571-4522-9a8e-42e80e3f03b0)
-![CleanShot 2023-12-17 at 18 28 58@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/3e083366-3bb9-4562-9c51-d2b8bdcf208a)
-![CleanShot 2023-12-17 at 18 29 14@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/76f4d9c1-cdb1-44d6-ae14-d110cb6c049e)
+	![CleanShot 2023-12-17 at 18 28 19@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/96523535-7d50-45f5-9040-e5c16431aab7)
+	![CleanShot 2023-12-17 at 18 28 51@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/5236c013-a571-4522-9a8e-42e80e3f03b0)
+	![CleanShot 2023-12-17 at 18 28 58@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/3e083366-3bb9-4562-9c51-d2b8bdcf208a)
+	![CleanShot 2023-12-17 at 18 29 14@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/76f4d9c1-cdb1-44d6-ae14-d110cb6c049e)
 
 
 
@@ -251,68 +251,58 @@ Use the user name and token provided by adafruit in python files and create the 
 
 I don't have a saw with me, so I used a drill to make small holes around where I needed to open a door, and then cut it open with a knife.
 
-![IMG_3141 2](/Users/yujia/Downloads/New Folder With Items 2/IMG_3141 2.jpeg)
+![IMG_3142 2](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/50c34d41-7143-4b20-b020-afff7e3c5e38)
 
-![IMG_3142 2](/Users/yujia/Downloads/New Folder With Items 2/IMG_3142 2.jpeg)
+![IMG_3141 2](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/00e38c5e-790b-45a8-ab1d-d08f6aecfdf5)
 
-![IMG_3182](/Users/yujia/Downloads/New Folder With Items 2/IMG_3182.jpeg)
+![IMG_3182](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/82e9ab04-ab44-4f7b-a8a9-3a64d40374de)
 
 #### Made a two-way openned door using plastic board, a wooden stick and bearings：
 
-![IMG_3183](/Users/yujia/Downloads/New Folder With Items 2/IMG_3183.jpeg)
+![IMG_3183](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/1d820d70-0540-4768-8e7f-de7abbc5e37e)
 
-![IMG_3185](/Users/yujia/Downloads/New Folder With Items 2/IMG_3185.jpeg)
+![IMG_3185](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/c210f966-1b27-4c1e-b3f3-cce242da6bf9)
 
 #### Drill a hole behind the bucket for inserting wires inside：
 
-![IMG_3191](/Users/yujia/Downloads/New Folder With Items 2/IMG_3191.jpeg)
+![IMG_3191](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/68c73938-8096-439f-bc5e-3191fb3a0ff1)
 
 #### Drill two holes above the door frame and insert the bearings into them：
 
-![IMG_3196](/Users/yujia/Downloads/New Folder With Items 2/IMG_3196.jpeg)
+![IMG_3196](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/05d564d2-ecad-4b1f-9083-30ceb4806773)
 
 #### Because there were no saws or files, I wrapped the rough edges of the door frame with silver tape:
 
-![IMG_3201](/Users/yujia/Downloads/New Folder With Items 2/IMG_3201.jpeg)
+![IMG_3201](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/4c4200ec-19a8-4339-936b-60c898d0cdaf)
 
 #### Measure and mark a suitable position for the light sensor, then create a hole and secure it inside：
 
-![IMG_3204](/Users/yujia/Downloads/New Folder With Items 2/IMG_3204.jpeg)
-
+![IMG_3204](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/0091cc11-3221-40d7-8449-14feb2a2ee4e)
 
 #### Make two holes on the side, tighten the screws and nuts to fix the angle of the wooden ring inside：
 
-![IMG_3212](/Users/yujia/Downloads/New Folder With Items 2/IMG_3212.jpeg)
+![IMG_3212](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/a8c14ab0-919d-4939-8583-b40a38f2683b)
 
-![IMG_3213](/Users/yujia/Downloads/New Folder With Items 2/IMG_3213.jpeg)
+![IMG_3213](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/baddf229-d432-455b-ad26-0749b01c0087)
 
 #### Try different materials to soften the light of LED strip：
 
-![IMG_3216](/Users/yujia/Downloads/New Folder With Items 2/IMG_3216.jpeg)
+![IMG_3216](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/daf55f64-b249-41fd-aaad-f9b59ea74d0c)
 
-![IMG_3220](/Users/yujia/Downloads/New Folder With Items 2/IMG_3220.jpeg)
+![IMG_3220](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/3bc4119a-d6ef-4650-9916-bbd21115cec7)
 
 #### Painted Decoration： 
 
-![IMG_3224](/Users/yujia/Downloads/New Folder With Items 2/IMG_3224.jpeg)
+![IMG_3224](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/71813f77-4c18-4aa3-969f-5598307defce)
+![IMG_3225](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/2fae51b3-96fe-4a6f-af65-143d319f9e17)
+![IMG_3226](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/5d39ab5d-216d-4944-83bd-08c6882d9e62)
+![IMG_3227](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/a4314a32-6442-4a12-8c64-3d7c1ecd8657)
+![IMG_3228](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/22742566-08a1-43c5-8f7c-f68242e6b202)
+![IMG_3229](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/b99e2c25-c66c-42d4-9720-a8887fca9772)
+![IMG_3230](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/cd8257c5-9778-44c2-85d0-c5662a7b4c23)
 
-![IMG_3225](/Users/yujia/Downloads/New Folder With Items 2/IMG_3225.jpeg)
-
-![IMG_3226](/Users/yujia/Downloads/New Folder With Items 2/IMG_3226.jpeg)
-
-![IMG_3227](/Users/yujia/Downloads/New Folder With Items 2/IMG_3227.jpeg)
-
-![IMG_3228](/Users/yujia/Downloads/New Folder With Items 2/IMG_3228.jpeg)
-
-![IMG_3229](/Users/yujia/Downloads/New Folder With Items 2/IMG_3229.jpeg)
-
-![IMG_3230](/Users/yujia/Downloads/New Folder With Items 2/IMG_3230.jpeg)
 
 ## Project outcome  
-
-Summarize the results of your final project implementation and include at least 2 photos of the prototype and a video walkthrough of the functioning demo.
-
-总结您的最终项目实施结果，并包括至少2张原型照片和一个功能演示的视频演示。
 
 ### LED Strip Status：
 
