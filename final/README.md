@@ -5,7 +5,8 @@ My original idea was to create a small project that generates a to-do list based
 
 The reason I wanted to do this project is that this semester, I have been suffering from physical discomfort, poor mental health, and the pressures of real life and academics. While thinking about this, I came up with this project as a way to vent. I find it quite interesting.
 
-![sketch](/Users/yujia/Desktop/sketch.png)
+![sketch](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/21009d24-a336-4fbf-b08b-2b91d4ce64c9)
+
 
 ## Implementation   
 
@@ -28,12 +29,11 @@ Explain your process of prototype development including all applicable aspects s
 
 ##### Schematic diagram:
 
-![Frame 1321314890](/Users/yujia/Desktop/Frame 1321314890.png)
+![Frame 1321314890](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/01841b4e-6e93-4334-8e57-a21df036acc0)
 
 ##### Photo:
 
-![IMG_3215](/Users/yujia/Downloads/New Folder With Items 2/IMG_3215.jpeg)
-
+![IMG_3215](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/103b5025-df48-4d46-a762-01f7cde96c44)
 
 ### Firmware   
 
@@ -309,43 +309,43 @@ Summarize the results of your final project implementation and include at least 
 
 总结您的最终项目实施结果，并包括至少2张原型照片和一个功能演示的视频演示。
 
-### 灯带状态：
+### LED Strip Status：
 
-#### 普通/昏暗环境下，15颗灯珠亮起：
+#### 15 Light Beads Light Up (Ordinary/Dim Environments):
 
-##### 静止状态:
+##### Static State:
 
-![IMG_2844](/Users/yujia/Downloads/IMG_2844.JPG)
+![IMG_0035](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/44983cb5-24f0-4796-a03f-1e894834bb0d)
 
-##### 微弱力度 （绿色）：
+##### Weak Strength/Low Emergency (Green):
 
-![IMG_0037](/Users/yujia/Downloads/IMG_0037.jpeg)
+![IMG_0037](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/1c4c301f-0702-47c7-9333-f9b94c8ba258)
 
-##### 中等力度 （黄色）：
+##### Medium Strength/Medium Emergency (Yellow):
 
-![IMG_0039](/Users/yujia/Downloads/IMG_0039.jpeg)
+![IMG_0039](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/0d1b9c45-c787-4640-833f-8a318dee4757)
 
-##### 强力度（红色）：
+##### High Strength/High Emergency (Red):
 
-![IMG_0038](/Users/yujia/Downloads/IMG_0038.jpeg)
+![IMG_0038](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/6a15374e-3370-4ecc-98b4-a790ece2c2fc)
 
-#### 高亮环境下，30颗灯珠亮起：
+#### 30 Light Beads Light Up (Bright Environments):
 
-##### 静止状态:
+##### Static State:
 
-![IMG_0041](/Users/yujia/Downloads/IMG_0041.jpeg)
+![IMG_0041](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/87bd9ed2-2053-4bda-acb8-e4643b684af6)
 
-##### 微弱力度 （绿色）：
+##### Weak Strength/Low Emergency (Green):：
 
-![IMG_0042](/Users/yujia/Downloads/IMG_0042.jpeg)
+![IMG_0042](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/729ab5ba-48a5-4bc1-8dce-82952592d8e5)
 
-##### 中等力度 （黄色）：
+##### Medium Strength/Medium Emergency (Yellow):
 
-![IMG_0043](/Users/yujia/Downloads/IMG_0043.jpeg)
+![IMG_0043](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/2b4255c3-6012-4de4-8074-9149341ae65d)
 
-##### 强力度（红色）：
+##### High Strength/High Emergency (Red):
 
-![IMG_0044](/Users/yujia/Downloads/IMG_0044.jpeg)
+![IMG_0044](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/249bacb6-ec22-463d-ba37-00a0cf26ca01)
 
 ### Adafruit Dashboard：
 
