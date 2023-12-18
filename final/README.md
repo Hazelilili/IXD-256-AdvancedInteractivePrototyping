@@ -12,13 +12,13 @@ The reason I wanted to do this project is that this semester, I have been suffer
 
 ### Hardware
 
-* Accelerometer
+* Accelerometer:
 	Detect the force with which the user throws the ball.
 
-* Light Sensor
+* Light Sensor:
 	Control the number of illuminated LED beads based on the intensity of ambient light.
 
-* LED Strip
+* LED Strip:
   Display different strength (different levels of urgency for different tasks)
 
 #### Wiring
@@ -224,14 +224,12 @@ def setup():
 
 ### Integrations   
 
-请包含指向您项目中其他功能组件的链接和/或屏幕截图，例如Adafruit IO feeds、仪表板、IFTTT applets等。总的来说，将您的受众想象为一个新手，试图学习如何制作您的项目，并确保涵盖任何有助于解释其功能部分的内容。
-
-* Adafruit
+* Adafruit:
 	Use the user name and token provided by adafruit in python files and create the feed for updates:
 	![CleanShot 2023-12-17 at 18 25 26@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/b8c2a900-8b95-4ff1-9ded-20050e952a2d)
 	![CleanShot 2023-12-17 at 18 26 38@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/db07b897-b623-47ed-aa5c-57e6c54d7fd8)
 
-* IFTTT applets
+* IFTTT applets:
 	![CleanShot 2023-12-17 at 18 27 26@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/847773e1-67ce-4e02-9cf1-56e499569540)
 	![CleanShot 2023-12-17 at 18 27 34@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/d562686e-3620-47f8-9663-767a59f813ab)
 	![CleanShot 2023-12-17 at 18 27 45@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/9049742e-6ce4-47b9-ad5c-d9a6ae0ef9fc)
