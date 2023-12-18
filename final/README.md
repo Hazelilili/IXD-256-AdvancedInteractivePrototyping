@@ -1,34 +1,68 @@
 # Assignment4: Final Project
-### Part I
-Analog input project
-![Idea 1_Yujia Li](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/798f9f73-d515-4b63-874d-0681f6b7d190)
-![Idea 2_Yujia Li](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/9f7a3964-e283-45b1-93b3-b44f142aee4d)
+## Introduction   
 
+Provide a description of your initial project idea and include images of the concept sketches that you created in Part 1 of this assignment.  Explain the reasoning behind your final choice of the project concept, whether it’s based on one of the initial sketches, a combination of or a departure from the original concepts.  
+  
+### Formatting Tips  
+   
+To format text into separate lines or paragraphs with [markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), include at least 2 spaces at the end.  The extra spaces act as line breaks.  
 
-### Part II
-#### Project Description
-I have decided to go with the second idea, "Virtual Plant." This project will use two sensors — a light sensor and a potentiometer — to control graphics on the screen. I plan to use the potentiometer to adjust the number of blue circles, which will simulate water drops, and the light sensor to control the color gradient of the background, which will simulate sunlight. The whole idea will be:
-- As the value read from the potentiometer changes, vertically falling water droplets appear on the screen, and the number of droplets changes in response to the value.
-- As the value from the light sensor changes, the background color changes in a linear gradient between black and white. At brightest environment, the background is white, and at darkest, the background is black.
-- (Optional) Adding the built-in button of the Atom 3 Lite as the third input, each press will cause the plant to lose a petal. However, depending on the values and effects from the other two inputs, whenever the screen simultaneously meets three conditions: 1. At least ten water droplets, 2. 50% brightness, and 3. maintained for one minute, the plant will regrow a petal.
+Links can be inserted with [link text in square brackets] followed by (link URL in parantheses).  For example, the markdown for [link to this page](../assignment04/) on GitHub Pages is: 
+`[link to this page](../assignment04/)`  
 
-However, due to time constraints, limitations of the tools, and personal capability considerations, the linear gradient and the optional were eventually removed. The plants, which were originally planned to be drawn using code, were replaced with a PNG.
+Note the use of relative paths in links.  The dot slash `./` in link path means the file is in the current directory, `../` means that it is in parent directory, `../../` is one more directory up and so on.  
+  
+To insert images, the syntax is almost the same with the addition of exclamation point `!` before [image description in square brackets] followed by (image link in parentheses).  The image below is included with:  
+`![led blink circuit](../class02/led_blink_bb.png)` syntax.  
 
-In the process of working on this project, I encountered a variety of problems, such as the two sensors not working simultaneously and the angle sensor's readings spiking to 255 along with the light sensor, and so on. In the end, issues were resolved.
+![blink led circuit](../class02/led_blink_bb.png) 
 
-#### Process Documentary
-##### Process
-![72006308384__7112AD5F-D9BA-41D7-9C7C-553C4CE8EBEB](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/b11bb4ee-2c36-4556-871a-1406b5f22c32)
-![72006313448__CA346BB6-3B5F-415D-90CA-DD864390F805](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/1beaa5d8-dbc3-46f3-a326-345405f935b1)
-![IMG_2107](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/5aa1d8d9-7724-4126-a84d-f29aee8271e2)
-![IMG_2113](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/3d2d68bc-adef-4bdd-92ee-6ed397a07174)
+## Implementation   
 
-https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/26edb1b2-23b0-4d8a-b824-d61d2b12e3a3
+Explain your process of prototype development including all applicable aspects such as hardware (electronics), firmware (MicroPython code), software (HTML/CSS/JavaScript or other code), integrations (Adafruit IO, IFTTT, etc.), enclosure and mechanical design.  Use a separate subheader for each part:
 
-![IMG_2120](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/fd58a51d-f102-40ac-97fc-53337890ff69)
-![IMG_2115](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/80492906-2fcc-4724-b824-ad35319a6fce)
-##### Final
-![IMG_2191](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/c8a0e2cb-1e4f-426b-a7b2-cab7cbc706db)
-![IMG_2188](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/4a9c4f9a-7d7d-499e-a664-373e9da5c788)
-##### Final Video
-https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/71cb4727-de0c-47c3-8bef-c6911258b3b3
+### Hardware
+
+List all the separate hardware components used in your project and briefly explain what they do.  To create a list with markdown syntax, use `-`, `*`, or `+` characters with each line of text:  
+* item 1  
+* item 2   
+* etc.  
+
+Include a schematic diagram image (hand-drawn is OK) showing all the wiring connections between the M5Stack AtomS3 board and other components.  
+
+In addition, include at least one photo showing your hardware wiring.  This can be several close-ups with the goal of showing how the wiring connections are made.  
+
+### Firmware   
+
+Provide a link to your MicroPython code and explain a few important parts that make your prototype work.  Most likely you should explain the inputs/outputs used in your code and how they affect the behavior of the prototype.
+
+To include code snippets, you can use the code block markdown, like this:
+
+``` Python  
+if(input_val > 1000):  # sensor value higher than threshold
+   led_pin.on()  # turn on LED
+```
+
+### Software   
+
+If applicable, explain the important software components of your project with relevant code snippets and links.  
+
+### Integrations   
+
+Include a link to and/or screenshots of other functional components of your project, like Adafruit IO feeds, dashboards, IFTTT applets, etc.  In general, think of your audience as someone new trying to learn how to make your project and make sure to cover anything helpful to explain the functional parts of it.
+
+### Enclosure / Mechanical Design   
+
+Explain how you made the enclosure or any other physical or mechanical aspects of your project with photos, screenshots of relevant files such as laser-cut patterns, 3D models, etc. (it’s great if you’re willing to share the editable source files too!)
+
+## Project outcome  
+
+Summarize the results of your final project implementation and include at least 2 photos of the prototype and a video walkthrough of the functioning demo.
+
+## Conclusion  
+
+As you wrap up the project, reflect on your experience of creating it.  Use this as an opportunity to mention any discoveries or challenges you came across along the way.  If there is anything you would have done differently, or have a chance to continue the project development given more time or resources, it’s a good way to conclude this section.
+
+## Project references  
+
+Please include links to any online resources like videos or tutorials that you may have found helpful in your process of implementing the prototype. If you used any substantial code from an online resource, make sure to credit the author(s) or sources.
