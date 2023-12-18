@@ -10,10 +10,6 @@ The reason I wanted to do this project is that this semester, I have been suffer
 
 ## Implementation   
 
-Explain your process of prototype development including all applicable aspects such as hardware (electronics), firmware (MicroPython code), software (HTML/CSS/JavaScript or other code), integrations (Adafruit IO, IFTTT, etc.), enclosure and mechanical design.  Use a separate subheader for each part:
-
-解释您的原型开发过程，包括所有相关方面，如硬件（电子设备），固件（MicroPython代码），软件（HTML/CSS/JavaScript或其他代码），集成（Adafruit IO，IFTTT等），外壳和机械设计。为每个部分使用单独的子标题：
-
 ### Hardware
 
 * Accelerometer
@@ -231,12 +227,21 @@ def setup():
 请包含指向您项目中其他功能组件的链接和/或屏幕截图，例如Adafruit IO feeds、仪表板、IFTTT applets等。总的来说，将您的受众想象为一个新手，试图学习如何制作您的项目，并确保涵盖任何有助于解释其功能部分的内容。
 
 * Adafruit
-
-  用来检测用户扔球的力度
+Use the user name and token provided by adafruit in python files and create the feed for updates:
+![CleanShot 2023-12-17 at 18 25 26@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/b8c2a900-8b95-4ff1-9ded-20050e952a2d)
+![CleanShot 2023-12-17 at 18 26 38@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/db07b897-b623-47ed-aa5c-57e6c54d7fd8)
 
 * IFTTT applets
+![CleanShot 2023-12-17 at 18 27 26@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/847773e1-67ce-4e02-9cf1-56e499569540)
+![CleanShot 2023-12-17 at 18 27 34@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/d562686e-3620-47f8-9663-767a59f813ab)
+![CleanShot 2023-12-17 at 18 27 45@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/9049742e-6ce4-47b9-ad5c-d9a6ae0ef9fc)
+![CleanShot 2023-12-17 at 18 28 09@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/bfff5851-10c8-4557-895e-f355bc36ad1d)
 
-  根据环境光线强度控制被点亮的led灯珠的数量 
+![CleanShot 2023-12-17 at 18 28 19@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/96523535-7d50-45f5-9040-e5c16431aab7)
+![CleanShot 2023-12-17 at 18 28 51@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/5236c013-a571-4522-9a8e-42e80e3f03b0)
+![CleanShot 2023-12-17 at 18 28 58@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/3e083366-3bb9-4562-9c51-d2b8bdcf208a)
+![CleanShot 2023-12-17 at 18 29 14@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/76f4d9c1-cdb1-44d6-ae14-d110cb6c049e)
+
 
 
 
