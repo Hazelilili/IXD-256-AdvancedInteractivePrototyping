@@ -67,7 +67,7 @@ def setup():
         'io.adafruit.com',
         port=1883,
         user=user_name,
-        password='aio_bpAv78QmiGv5vCMES6ZZ5ticbL7k',
+        password='aio_xxuQ84Wj61WEeCk68wYs56Ro0Uy7',
         keepalive=3000
     )
   mqtt_client.connect(clean_session=True)
