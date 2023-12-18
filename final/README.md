@@ -348,16 +348,23 @@ Summarize the results of your final project implementation and include at least 
 ![IMG_0044](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/249bacb6-ec22-463d-ba37-00a0cf26ca01)
 
 ### Adafruit Dashboard：
+![CleanShot 2023-12-17 at 22 07 49@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/6e7a5181-8c16-47a0-afee-0eee33d5c6bc)
+![CleanShot 2023-12-17 at 18 26 25@2x](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/1ac9e94c-21c8-4c5c-8713-11059da696de)
 
-![CleanShot 2023-12-17 at 22.07.49@2x](/Users/yujia/Desktop/CleanShot 2023-12-17 at 22.07.49@2x.png)
 
 ### Microsoft To-do App：
+![IMG_0040](https://github.com/Hazelilili/IXD-256-Advanced_Interactive_Prototyping/assets/48962522/06eb0986-586e-4359-a1af-08e2ee26893e)
 
-![IMG_0040](/Users/yujia/Downloads/IMG_0040.PNG)
+
 
 ### Video:
 
-<video src="/Users/yujia/Downloads/IMG_2852.MOV"></video>
+Demo Videos uploaded in Canvas
+
+Demo Video 01 demonstrates the different state of LED strips and messages sent to Adafruit.
+Demo Video 02 demonstrates the auto creating tasks in Microsoft To-do App(the update of IFTTT is a bit slower, but it works)
+
+
 
 ## Conclusion  
 
@@ -386,7 +393,4 @@ As you wrap up the project, reflect on your experience of creating it.  Use this
    
 
 ## Project references  
-
-Please include links to any online resources like videos or tutorials that you may have found helpful in your process of implementing the prototype. If you used any substantial code from an online resource, make sure to credit the author(s) or sources.
-
-请在您实现原型的过程中，包括任何在线资源的链接，例如视频或教程。如果您使用了任何重要的在线资源代码，请确保给予作者或来源以功劳。
+https://github.com/tuupola/micropython-mpu6886/blob/master/mpu6886.py
