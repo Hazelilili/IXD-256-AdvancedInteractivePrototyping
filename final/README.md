@@ -363,29 +363,10 @@ Demo Video 02 demonstrates the auto creating tasks in Microsoft To-do App(the up
 
 ## Conclusion  
 
-As you wrap up the project, reflect on your experience of creating it.  Use this as an opportunity to mention any discoveries or challenges you came across along the way.  If there is anything you would have done differently, or have a chance to continue the project development given more time or resources, it’s a good way to conclude this section.
+During the process, I encountered some problems. First, there was an issue with sensor selection. Initially, I planned to fix the pressure sensor on the container, but considering the possibility of the ball hitting the wrong target, I ultimately decided to fix the accelerometer on a piece of elastic fabric. For this purpose, I purchased various fabrics to test their elasticity. Later, the accelerometer displayed readings but showed no changes, and there were no accelerometer modules available for the Atom 3Lite in UI Flow 2. Finally, I resolved the accelerometer issue by using a library and driver from another source with the help from Nikita.
 
-在结束项目时，回顾一下您创建它的经历。利用这个机会提及您在过程中遇到的任何发现或挑战。如果有什么您会做得不同，或者有机会在有更多时间或资源的情况下继续项目开发，这是一个很好的方式来结束本节。
-
-在过程中，我遇到的几个问题
-
-1. 录音小球
-
-2. 语音转文字部分
-
-3. 发送并分类
-
-4. 如何检测扔球的力度
-
-5. 加速度计无法使用
-
-6. Atom board连接口有限
-
-7. 代码重复发送两次消息到adafruit
-
-8. 
-
-   
+Next, the recording ball is also a challenge. If the ball could record, it would be difficult to connect it to the Atom board because the main sensors were connected to a stationary body, while the ball needed to be able to move. So, I might need more than two Atom boards, and wireless connectivity would be necessary. However, ensuring that the recording device functioned properly during motion and impact was also a problem. Therefore, I abandoned this idea and decided to use the built-in microphone on the computer for recording instead of using the ball.
+But then, speech-to-text became a new problem. Although it was theoretically feasible, due to the tight project timeline, I chose to fake the text content in the demo, skipping the speech-to-text step. I successfully created tasks in Microsoft's task list using Adafruit and IFTTT. If I had more time and resources, I would continue to work on the speech-to-text and automatic categorization aspects.
 
 ## Project references  
 https://github.com/tuupola/micropython-mpu6886/blob/master/mpu6886.py
